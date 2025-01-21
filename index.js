@@ -4,24 +4,26 @@ fetch(url)
   .then(res => res.json())
   .then(chargers => chargers.forEach(chargers=> displayChargers(chargers)));
 
-let slideIndex = 0;
+let slideIndex = 0; // 'cntr' related to the slideIndex++, thrf moving next
 showSlides();
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+  let slides = document.getElementsByClassName("mySlides"); // GOT MY IMAGES/SLIDES FROM HTML
+  let dots = document.getElementsByClassName("dot");  // GOT MY DOTS FROM HTML
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";  // initial sld disp othrws all wld be disp at onc init
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  slideIndex++; // inc by 1 
+  if (slideIndex > slides.length) {
+    slideIndex = 1  //  //reset back 1st
+  }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", " "); //search for any active/ deacts
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  dots[slideIndex-1].className += " active"; 
+  setTimeout(showSlides, 5000); // Change every 5 seconds
 }
 
 // display chargers
