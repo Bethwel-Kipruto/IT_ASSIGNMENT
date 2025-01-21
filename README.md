@@ -2,7 +2,7 @@ ALL THINGS EV - A PLATFORM FOR ELECTRIC VEHICLE CHARGING STATIONS.
 
 PROJECT REPORT – INTERNET TECHNOLOGIES(ICS 2107) BSC. COMPUTER SCIENCE PREPARED BY : BETHWEL KIPRUTO KANGOGO – SCT211-0387/2024 NJANJA LAWRENCE KARIUKI – SCT211-0475/2024
 
-WEBSITE LINK: https://bethwel-kipruto.github.io/Bethwel-Kipruto-internet_technologies_assignmen/
+WEBSITE LINK: [https://bethwel-kipruto.github.io/Bethwel-Kipruto-internet_technologies_assignmen/](https://bethwel-kipruto.github.io/IT_ASSIGNMENT/)
 
 OVERVIEW : Our project, "All Things EV " demonstrates the application of web development skills learned in ICS 2107, including HTML, CSS, and JavaScript, to solve a real-world problem. The site provides a centralized platform for locating and booking electric vehicle charging stations in Kenya, showcasing efficient design and functionality while adhering to CRAP principles to enhance usability and aesthetics.
 
