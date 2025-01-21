@@ -1,0 +1,60 @@
+{
+    "chargers": [
+      {
+        "id": 1,
+        "location": "WESTLANDS,VICTORIA PLAZA",
+        "image": "https://rb.gy/wzkfew",
+        "description": "Ultra fast 330 Watt EV charger",
+        "cost": "200 KSH per hour",
+        "compatibility":"EVs with up to 1000 Watt batteries"
+        
+      },
+  
+      {
+        "id": 2,
+        "location": "KAREN, NAIROBI WATERFRONT",
+        "image": "https://shorturl.at/gCw2s",
+        "description": "Ultra fast 330 Watt EV charger",
+        "cost": "200 KSH per hour",
+        "compatibility":"EVs with up to 1000 Watt batteries"
+      },
+  
+      {
+        "id": 3,
+        "location": "KILIMANI, QUICKMART KILIMANI",
+        "image": "https://shorturl.at/44WKp",
+        "description": "Standard 200 Watt EV charger",
+        "cost": "100 KSH per hour",
+        "compatibility":"EVs with up to 1000 Watt batteries"
+  
+      },
+  
+      {
+        "id": 4,
+        "location": "CBD, KENCOM NAIROBI",
+        "image": "https://shorturl.at/aUH1q",
+        "description": "Ultra fast 330 Watt charger",
+        "cost": "200 KSH per hour",
+        "compatibility":"ALL EVs "
+      },
+  
+      {
+        "id": 5,
+        "location": "LANGATA, UHURU GARDENS NAIROBI",
+        "image": "https://shorturl.at/44WKp",
+        "description": "Standard 200 Watt charger",
+        "cost": "100 KSH per hour",
+        "compatibility":"ALL EVs"
+      },
+  
+      {
+        "id": 6,
+        "location": "JKIA, NAIROBI",
+        "image": "https://shorturl.at/gCw2s",
+        "description": "Ultra fast 330 Watt charger",
+        "cost": "200 KSH per hour",
+        "compatibility":"EVs with up to 1000 Watt batteries"
+      }
+  
+    ]
+  }
